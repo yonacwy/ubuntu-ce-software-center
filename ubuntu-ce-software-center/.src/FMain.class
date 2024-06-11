@@ -33,7 +33,7 @@ Sub initialize()
   app_check("netbible", "netbible.desktop", LaunchNetBibleButton, InstallNetBibleButton, UninstallNetBibleButton, NetBibleFavicon, NetBibleFavCheckBox)
   app_check("bible-web-app", "bible-web-app.desktop", LaunchBibleWebAppButton, InstallBibleWebAppButton, UninstallBibleWebAppButton, BibleWebAppFavicon, BibleWebAppFavCheckBox)
   app_check("blue-letter-bible", "blue-letter-bible.desktop", LaunchBlueLetterBibleButton, InstallBlueLetterBibleButton, UninstallBlueLetterBibleButton, BlueLetterBibleFavicon, BlueLetterBibleFavCheckBox)
-  app_check("gnucash", "gnucash.desktop", LaunchGNUCashButton, InstallGNUCashButton, UninstallGNUCashButton, GNUCashFavicon, GNUCashFavCheckBox)
+  app_check("gnucash", "gnucash.desktop", LaunchOdooButton, InstallGNUCashButton, UninstallGNUCashButton, GNUCashFavicon, GNUCashFavCheckBox)
   app_check("obs-studio", "obs-studio_obs-studio.desktop", LaunchOBSButton, InstallOBSButton, UninstallOBSButton, OBSFavicon, OBSFavCheckBox, True)
   app_check("audacity", "audacity_audacity.desktop", LaunchAudacityButton, InstallAudacityButton, UninstallAudacityButton, AudacityFavicon, AudacityFavCheckBox, True)
   app_check("gimp", "gimp_gimp.desktop", LaunchGIMPButton, InstallGIMPButton, UninstallGIMPButton, GIMPFavicon, GIMPFavCheckBox, True)
@@ -736,7 +736,7 @@ Public Sub UninstallBlueLetterBibleButton_Click()
   
 End
 
-Public Sub LaunchGNUCashButton_Click()
+Public Sub LaunchOdooButton_Click()
   
   launch_app("gnucash")
   
@@ -744,13 +744,13 @@ End
 
 Public Sub InstallGNUCashButton_Click()
   
-  install_app("gnucash", GNUCashLabel.text)
+  install_app("gnucash", OdooLabel.text)
   
 End
 
 Public Sub UninstallGNUCashButton_Click()
   
-  uninstall_app("gnucash", GNUCashLabel.text)
+  uninstall_app("gnucash", OdooLabel.text)
   
 End
 
@@ -1283,3 +1283,5 @@ Public Sub GIMPFavCheckBox_MouseDown()
   Endif
   
 End
+
+

@@ -7,7 +7,7 @@
   Utility = True
   { TerminalToggle ToggleButton
     MoveScaled(1,57,17,4)
-    Mouse = Mouse.Pointing
+    Mouse = Cursor.Pointing
     AutoResize = True
     Text = ("Show Details")
     Picture = Picture["terminal.png"]
@@ -16,7 +16,7 @@
     MoveScaled(98,57,24,4)
     Background = Color.SelectedBackground
     Foreground = Color.White
-    Mouse = Mouse.Pointing
+    Mouse = Cursor.Pointing
     ToolTip = ("Get more from the Ubuntu Software Store")
     AutoResize = True
     Text = ("Get more software") & "..."
@@ -24,7 +24,7 @@
   }
   { ExitButton Button
     MoveScaled(123,57,16,4)
-    Mouse = Mouse.Pointing
+    Mouse = Cursor.Pointing
     Text = ("Exit")
   }
   { ProgressLabel Label
@@ -42,7 +42,7 @@
   }
   { Tabs TabStrip
     MoveScaled(1,1,138,55)
-    Count = 4
+    Count = 5
     Index = 0
     Text = ("Family Settings")
     { DNSMinderFrame Frame
@@ -56,26 +56,26 @@
       }
       { InstallDNSMinderButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchDNSMinderButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallDNSMinderButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { DNSMinderPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["dnsminder.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("dnsminder.png")
         Stretch = True
       }
       { DNSMinderLabel Label
@@ -84,10 +84,10 @@
         Text = ("DNS Minder")
       }
       { DNSMinderInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { DNSMinderFavCheckBox CheckBox
@@ -117,26 +117,26 @@
       }
       { InstallHostMinderButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchHostMinderButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallHostMinderButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { HostMinderPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["hostminder.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("hostminder.png")
         Stretch = True
       }
       { HostMinderLabel Label
@@ -145,10 +145,10 @@
         Text = ("Host Minder")
       }
       { HostMinderInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { HostMinderFavicon Button
@@ -177,26 +177,26 @@
       }
       { InstallParentalControlsButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchParentalControlsButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallParentalControlsButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { ParentalControlsPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["parental-controls.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("parental-controls.png")
         Stretch = True
       }
       { ParentalControlsLabel Label
@@ -205,10 +205,10 @@
         Text = ("Parental Controls")
       }
       { ParentalControlsInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { ParentalControlsFavicon Button
@@ -237,26 +237,26 @@
       }
       { InstallTimekprButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchTimekprButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallTimekprButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { TimekprPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["timekpr.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("timekpr.png")
         Stretch = True
       }
       { TimekprLabel Label
@@ -265,10 +265,10 @@
         Text = ("Timekpr-nExT")
       }
       { TimekprInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { TimekprFavicon Button
@@ -297,26 +297,26 @@
       }
       { InstallAccountable2youButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchAccountable2youButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallAccountable2youButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { Accountable2youPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["accountable2you.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("accountable2you.png")
         Stretch = True
       }
       { Accountable2youLabel Label
@@ -325,10 +325,10 @@
         Text = ("Accountable2You")
       }
       { Accountable2youInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { Accountable2youFavicon Button
@@ -359,26 +359,26 @@
       }
       { InstallXiphosButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchXiphosButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallXiphosButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { XiphosPictureBox PictureBox
-        MoveScaled(1,0,6.25,6.25)
-        Picture = Picture["xiphos.png"]
+        MoveScaled(1,0,6.2857,6.2857)
+        Picture = Picture.Load("xiphos.png")
         Stretch = True
       }
       { XiphosLabel Label
@@ -387,10 +387,10 @@
         Text = ("Xiphos")
       }
       { XiphosInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { XiphosFavicon Button
@@ -419,26 +419,26 @@
       }
       { InstallBibleTimeButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleTimeButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleTimeButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleTimePictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bibletime.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bibletime.png")
         Stretch = True
       }
       { BibleTimeLabel Label
@@ -447,10 +447,10 @@
         Text = ("BibleTime")
       }
       { BibleTimeInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BibleTimeFavicon Button
@@ -470,7 +470,7 @@
     }
     { BibleditFrame Frame
       MoveScaled(104,2,32,14)
-      Mouse = Mouse.Pointing
+      Mouse = Cursor.Pointing
       { BibleditTextArea TextArea
         MoveScaled(9,4,22,3)
         Text = ("Bible Translation App")
@@ -480,26 +480,26 @@
       }
       { InstallBibleditButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleditButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleditButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleditPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bibledit.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bibledit.png")
         Stretch = True
       }
       { BibleditLabel Label
@@ -508,10 +508,10 @@
         Text = ("Bibledit")
       }
       { BibleditInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BibleditFavicon Button
@@ -540,26 +540,26 @@
       }
       { InstallBibleKJVButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleKJVButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleKJVButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleKJVPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bible-kjv.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bible-kjv.png")
         Stretch = True
       }
       { BibleKJVLabel Label
@@ -568,10 +568,10 @@
         Text = ("Bible KJV")
       }
       { BibleKJVInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
     }
@@ -586,26 +586,26 @@
       }
       { InstallBollsBibleButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBollsButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBollsButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BollsPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bolls.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bolls.png")
         Stretch = True
       }
       { BollsLabel Label
@@ -614,10 +614,10 @@
         Text = ("Bolls Bible")
       }
       { BollsInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BollsFavicon Button
@@ -646,26 +646,26 @@
       }
       { InstallDabPlayerButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchDabPlayerButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallDabPlayerButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { DabPlayerPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["dab-player.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("dab-player.png")
         Stretch = True
       }
       { DabPlayerLabel Label
@@ -674,10 +674,10 @@
         Text = ("Daily Audio Bible")
       }
       { DabPlayerInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { DabPlayerFavicon Button
@@ -706,26 +706,26 @@
       }
       { InstallBibleMTFButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleMTFButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleMTFButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleMTFPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bible-mtl.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bible-mtl.png")
         Stretch = True
       }
       { BibleMTFLabel Label
@@ -734,10 +734,10 @@
         Text = ("The Life")
       }
       { BibleMTFInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BibleMTFFavicon Button
@@ -766,26 +766,26 @@
       }
       { InstallBibleSOMButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleSOMButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleSOMButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleSOMPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bible-som.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bible-som.png")
         Stretch = True
       }
       { BibleSOMLabel Label
@@ -794,10 +794,10 @@
         Text = ("Son of Man")
       }
       { BibleSOMInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
     }
@@ -812,26 +812,26 @@
       }
       { InstallBibrefButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibrefButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibrefButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibrefPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bibref.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bibref.png")
         Stretch = True
       }
       { BibrefLabel Label
@@ -840,10 +840,10 @@
         Text = ("Bibref")
       }
       { BibrefInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
     }
@@ -858,26 +858,26 @@
       }
       { InstallNetBibleButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchNetBibleButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallNetBibleButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { NetBiblePictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["netbible.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("netbible.png")
         Stretch = True
       }
       { NetBibleLabel Label
@@ -886,10 +886,10 @@
         Text = ("NET Bible")
       }
       { NetBibleInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { NetBibleFavicon Button
@@ -918,26 +918,26 @@
       }
       { InstallBibleWebAppButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBibleWebAppButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBibleWebAppButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BibleWebAppPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["bible-web-app.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("bible-web-app.png")
         Stretch = True
       }
       { BibleWebAppLabel Label
@@ -946,10 +946,10 @@
         Text = ("BibleWebApp")
       }
       { BibleWebAppInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BibleWebAppFavicon Button
@@ -978,26 +978,26 @@
       }
       { InstallBlueLetterBibleButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchBlueLetterBibleButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallBlueLetterBibleButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { BlueLetterBiblePictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["blue-letter-bible.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("blue-letter-bible.png")
         Stretch = True
       }
       { BlueLetterBibleLabel Label
@@ -1006,10 +1006,10 @@
         Text = ("Blue Letter Bible")
       }
       { BlueLetterBibleInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { BlueLetterBibleFavicon Button
@@ -1028,67 +1028,7 @@
       }
     }
     Index = 2
-    Text = ("For Churches")
-    { PresenterFrame Frame
-      MoveScaled(2,2,32,14)
-      { PresenterTextArea TextArea
-        MoveScaled(9,4,22,3)
-        Text = ("Church Presentaton App")
-        ReadOnly = True
-        Wrap = True
-        Border = False
-      }
-      { InstallPresenterButton Button
-        MoveScaled(19,9,12,4)
-        Background = &H41C017&
-        Foreground = Color.White
-        Mouse = Mouse.Pointing
-        Text = ("Install")
-      }
-      { LaunchPresenterButton Button
-        MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
-        Text = ("Launch")
-      }
-      { UninstallPresenterButton Button
-        MoveScaled(1,9,4,4)
-        Background = Color.Red
-        Foreground = Color.White
-        Mouse = Mouse.Pointing
-        Picture = Picture["trashcan.png"]
-      }
-      { PresenterPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["presenter.png"]
-        Stretch = True
-      }
-      { PresenterLabel Label
-        MoveScaled(9,1,17,3)
-        Font = Font["Bold"]
-        Text = ("Presenter by WT")
-      }
-      { PresenterInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
-        ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
-        Stretch = True
-      }
-      { PresenterFavicon Button
-        MoveScaled(6,9,3,4)
-        Enabled = False
-        Background = Color.Transparent
-        Foreground = Color.Transparent
-        ToolTip = ("Add to Favorites?")
-        Picture = Picture["Fav.png"]
-        Border = False
-      }
-      { PresenterFavCheckBox CheckBox
-        MoveScaled(9,9,4,4)
-        ToolTip = ("Add to Favorites?")
-        Text = (" ")
-      }
-    }
+    Text = ("Church Presentations")
     { FreeShowFrame Frame
       MoveScaled(36,2,32,14)
       { FreeShowTextArea TextArea
@@ -1100,26 +1040,26 @@
       }
       { InstallFreeShowButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchFreeShowButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallFreeShowButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { FreeShowPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["freeshow.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("freeshow.png")
         Stretch = True
       }
       { FreeShowLabel Label
@@ -1128,10 +1068,10 @@
         Text = ("FreeShow")
       }
       { FreeShowInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { FreeShowFavicon Button
@@ -1160,26 +1100,26 @@
       }
       { InstallFloodlightButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchFloodlightButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallFloodlightButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { FloodlightPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["floodlight.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("floodlight.png")
         Stretch = True
       }
       { FloodlightLabel Label
@@ -1188,10 +1128,10 @@
         Text = ("Floodlight Presenter")
       }
       { FloodlightPresenterInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { FloodlightFavicon Button
@@ -1216,66 +1156,6 @@
         Text = ("Flathub Repository is not installed.")
       }
     }
-    { GNUCashFrame Frame
-      MoveScaled(104,2,32,14)
-      { GNUCashTextArea TextArea
-        MoveScaled(9,4,22,3)
-        Text = ("Quickbooks Alternative")
-        ReadOnly = True
-        Wrap = True
-        Border = False
-      }
-      { InstallGNUCashButton Button
-        MoveScaled(19,9,12,4)
-        Background = &H41C017&
-        Foreground = Color.White
-        Mouse = Mouse.Pointing
-        Text = ("Install")
-      }
-      { LaunchGNUCashButton Button
-        MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
-        Text = ("Launch")
-      }
-      { UninstallGNUCashButton Button
-        MoveScaled(1,9,4,4)
-        Background = Color.Red
-        Foreground = Color.White
-        Mouse = Mouse.Pointing
-        Picture = Picture["trashcan.png"]
-      }
-      { GNUCashPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["gnucash.png"]
-        Stretch = True
-      }
-      { GNUCashLabel Label
-        MoveScaled(9,1,21,3)
-        Font = Font["Bold"]
-        Text = ("GnuCash")
-      }
-      { GNUCashInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
-        ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
-        Stretch = True
-      }
-      { GNUCashFavicon Button
-        MoveScaled(6,9,3,4)
-        Enabled = False
-        Background = Color.Transparent
-        Foreground = Color.Transparent
-        ToolTip = ("Add to Favorites?")
-        Picture = Picture["Fav.png"]
-        Border = False
-      }
-      { GNUCashFavCheckBox CheckBox
-        MoveScaled(9,9,4,4)
-        ToolTip = ("Add to Favorites?")
-        Text = (" ")
-      }
-    }
     { OBSFrame Frame
       MoveScaled(2,18,32,14)
       { OBSTextArea TextArea
@@ -1287,26 +1167,26 @@
       }
       { InstallOBSButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchOBSButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallOBSButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { OBSPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["obs.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("obs.png")
         Stretch = True
       }
       { OBSLabel Label
@@ -1315,10 +1195,10 @@
         Text = ("OBS Studio")
       }
       { OBSInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { OBSFavicon Button
@@ -1347,26 +1227,26 @@
       }
       { InstallAudacityButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchAudacityButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallAudacityButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { AudacityPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["audacity.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("audacity.png")
         Stretch = True
       }
       { AudacityLabel Label
@@ -1375,10 +1255,10 @@
         Text = ("Audacity")
       }
       { AudacityInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { AudacityFavicon Button
@@ -1407,26 +1287,26 @@
       }
       { InstallGIMPButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchGIMPButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallGIMPButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { GIMPPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["gimp.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("gimp.png")
         Stretch = True
       }
       { GIMPLabel Label
@@ -1435,10 +1315,10 @@
         Text = ("GIMP")
       }
       { GIMPInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { GIMPFavicon Button
@@ -1456,7 +1336,249 @@
         Text = (" ")
       }
     }
+    { PresenterFrame Frame
+      MoveScaled(2,2,32,14)
+      { PresenterTextArea TextArea
+        MoveScaled(9,4,22,3)
+        Text = ("Church Presentaton App")
+        ReadOnly = True
+        Wrap = True
+        Border = False
+      }
+      { InstallPresenterButton Button
+        MoveScaled(19,9,12,4)
+        Background = &H41C017
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Text = ("Install")
+      }
+      { LaunchPresenterButton Button
+        MoveScaled(19,9,12,4)
+        Mouse = Cursor.Pointing
+        Text = ("Launch")
+      }
+      { UninstallPresenterButton Button
+        MoveScaled(1,9,4,4)
+        Background = Color.Red
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Picture = Picture["trashcan.png"]
+      }
+      { PresenterPictureBox PictureBox
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("presenter.png")
+        Stretch = True
+      }
+      { PresenterLabel Label
+        MoveScaled(9,1,17,3)
+        Font = Font["Bold"]
+        Text = ("Presenter by WT")
+      }
+      { PresenterInfoButton PictureBox
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
+        ToolTip = ("More info") & "..."
+        Picture = Picture.Load("info.png")
+        Stretch = True
+      }
+      { PresenterFavicon Button
+        MoveScaled(6,9,3,4)
+        Enabled = False
+        Background = Color.Transparent
+        Foreground = Color.Transparent
+        ToolTip = ("Add to Favorites?")
+        Picture = Picture["Fav.png"]
+        Border = False
+      }
+      { PresenterFavCheckBox CheckBox
+        MoveScaled(9,9,4,4)
+        ToolTip = ("Add to Favorites?")
+        Text = (" ")
+      }
+    }
+    { VLCFrame Frame
+      MoveScaled(104,2,32,14)
+      { VLCTextArea TextArea
+        MoveScaled(9,4,22,3)
+        Text = ("Media Player App")
+        ReadOnly = True
+        Wrap = True
+        Border = False
+      }
+      { InstallVLCButton Button
+        MoveScaled(19,9,12,4)
+        Background = &H41C017
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Text = ("Install")
+      }
+      { LaunchVLCButton Button
+        MoveScaled(19,9,12,4)
+        Mouse = Cursor.Pointing
+        Text = ("Launch")
+      }
+      { UninstallVLCButton Button
+        MoveScaled(1,9,4,4)
+        Background = Color.Red
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Picture = Picture["trashcan.png"]
+      }
+      { VLCPictureBox PictureBox
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("vlc.png")
+        Stretch = True
+      }
+      { VLC Label
+        MoveScaled(9,1,18,3)
+        Font = Font["Bold"]
+        Text = ("VLC media player")
+      }
+      { VLCInfoButton PictureBox
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
+        ToolTip = ("More info") & "..."
+        Picture = Picture.Load("info.png")
+        Stretch = True
+      }
+      { VLCFavicon Button
+        MoveScaled(6,9,3,4)
+        Enabled = False
+        Background = Color.Transparent
+        Foreground = Color.Transparent
+        ToolTip = ("Add to Favorites?")
+        Picture = Picture["Fav.png"]
+        Border = False
+      }
+      { VLCFavCheckBox CheckBox
+        MoveScaled(9,9,4,4)
+        ToolTip = ("Add to Favorites?")
+        Text = (" ")
+      }
+    }
     Index = 3
+    Text = ("Church Management")
+    { OdooFrame Frame
+      MoveScaled(2,2,32,14)
+      { OdooTextArea TextArea
+        MoveScaled(9,4,22,3)
+        Text = ("All-in-One ERP Solution")
+        ReadOnly = True
+        Wrap = True
+        Border = False
+      }
+      { InstallOdooButton Button
+        MoveScaled(19,9,12,4)
+        Background = &H41C017
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Text = ("Install")
+      }
+      { LaunchOdooButton Button
+        MoveScaled(19,9,12,4)
+        Mouse = Cursor.Pointing
+        Text = ("Launch")
+      }
+      { UninstallOdooButton Button
+        MoveScaled(1,9,4,4)
+        Background = Color.Red
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Picture = Picture["trashcan.png"]
+      }
+      { OdooPictureBox PictureBox
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("odoo.png")
+        Stretch = True
+      }
+      { OdooLabel Label
+        MoveScaled(9,1,21,3)
+        Font = Font["Bold"]
+        Text = ("Odoo")
+      }
+      { OdooFavicon Button
+        MoveScaled(6,9,3,4)
+        Enabled = False
+        Background = Color.Transparent
+        Foreground = Color.Transparent
+        ToolTip = ("Add to Favorites?")
+        Picture = Picture["Fav.png"]
+        Border = False
+      }
+      { OdooFavCheckBox CheckBox
+        MoveScaled(9,9,4,4)
+        ToolTip = ("Add to Favorites?")
+        Text = (" ")
+      }
+      { OdooInfoButton PictureBox
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
+        ToolTip = ("More info") & "..."
+        Picture = Picture.Load("info.png")
+        Stretch = True
+      }
+    }
+    { GNUCashFrame Frame
+      MoveScaled(36,2,32,14)
+      { GNUCashTextArea TextArea
+        MoveScaled(9,4,22,3)
+        Text = ("Quickbooks Alternative")
+        ReadOnly = True
+        Wrap = True
+        Border = False
+      }
+      { InstallGNUCashButton Button
+        MoveScaled(19,9,12,4)
+        Background = &H41C017
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Text = ("Install")
+      }
+      { LaunchGNUCashButton Button
+        MoveScaled(19,9,12,4)
+        Mouse = Cursor.Pointing
+        Text = ("Launch")
+      }
+      { UninstallGNUCashButton Button
+        MoveScaled(1,9,4,4)
+        Background = Color.Red
+        Foreground = Color.White
+        Mouse = Cursor.Pointing
+        Picture = Picture["trashcan.png"]
+      }
+      { GNUCashPictureBox PictureBox
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("gnucash.png")
+        Stretch = True
+      }
+      { GNUCashLabel Label
+        MoveScaled(9,1,21,3)
+        Font = Font["Bold"]
+        Text = ("GnuCash")
+      }
+      { GNUCashInfoButton PictureBox
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
+        ToolTip = ("More info") & "..."
+        Picture = Picture.Load("info.png")
+        Stretch = True
+      }
+      { GNUCashFavicon Button
+        MoveScaled(6,9,3,4)
+        Enabled = False
+        Background = Color.Transparent
+        Foreground = Color.Transparent
+        ToolTip = ("Add to Favorites?")
+        Picture = Picture["Fav.png"]
+        Border = False
+      }
+      { GNUCashFavCheckBox CheckBox
+        MoveScaled(9,9,4,4)
+        ToolTip = ("Add to Favorites?")
+        Text = (" ")
+      }
+    }
+    Index = 4
     Text = ("Appearance")
     { UbuntuCEWallpapersFrame Frame
       MoveScaled(2,2,32,14)
@@ -1469,26 +1591,26 @@
       }
       { InstallUbuntuCEWallpapersButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchUbuntuCEWallpapersButton Button
         MoveScaled(13,9,18,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Change Wallpaper")
       }
       { UninstallUbuntuCEWallpapersButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { UbuntuCEWallpapersPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["ubuntu-logo.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("ubuntu-logo.png")
         Stretch = True
       }
       { UbuntuCEWallpapersLabel Label
@@ -1497,10 +1619,10 @@
         Text = ("UbuntuCE Wallpapers")
       }
       { UbuntuCEWallpapersInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
     }
@@ -1515,21 +1637,21 @@
       }
       { InstallUbuntuCEBrandingButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { UninstallUbuntuCEBrandingButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { UbuntuCEBootPictureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["ubuntu-logo.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("ubuntu-logo.png")
         Stretch = True
       }
       { UbuntuCEBrandingLabel Label
@@ -1538,10 +1660,10 @@
         Text = ("UbuntuCE Branding")
       }
       { UbuntuCEBrandingInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
     }
@@ -1556,26 +1678,26 @@
       }
       { InstallUbuntuCEGreeterButton Button
         MoveScaled(19,9,12,4)
-        Background = &H41C017&
+        Background = &H41C017
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Install")
       }
       { LaunchUbuntuCEGreeterButton Button
         MoveScaled(19,9,12,4)
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Text = ("Launch")
       }
       { UninstallUbuntuCEGreeterButton Button
         MoveScaled(1,9,4,4)
         Background = Color.Red
         Foreground = Color.White
-        Mouse = Mouse.Pointing
+        Mouse = Cursor.Pointing
         Picture = Picture["trashcan.png"]
       }
       { UbuntuCEGreeterPIctureBox PictureBox
-        MoveScaled(1,1,6.25,6.25)
-        Picture = Picture["ubuntu-logo.png"]
+        MoveScaled(1,1,6.2857,6.2857)
+        Picture = Picture.Load("ubuntu-logo.png")
         Stretch = True
       }
       { UbuntuCEGreeterLabel Label
@@ -1584,10 +1706,10 @@
         Text = ("UbuntuCE Greeter")
       }
       { UbuntuCEGreeterInfoButton PictureBox
-        MoveScaled(29,1,2.25,2.25)
-        Mouse = Mouse.Pointing
+        MoveScaled(29,1,2.2857,2.2857)
+        Mouse = Cursor.Pointing
         ToolTip = ("More info") & "..."
-        Picture = Picture["info.png"]
+        Picture = Picture.Load("info.png")
         Stretch = True
       }
       { UbuntuCEGreeterFavicon Button
