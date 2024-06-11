@@ -6,12 +6,6 @@
 
 ### [Check out UbuntuCE](https://ubuntuce.com/)
 
-## Disclaimer
-
-All code is provided as-is without any warranty.
-
-
-
 
 
 ## Extended Version
@@ -19,3 +13,8 @@ All code is provided as-is without any warranty.
 Added more tabs and apps to install, renamed and reorganized some things.
 
 <img src="https://github.com/yonacwy/ubuntu-ce-software-center/blob/extended/ubuntu-ce-software-center-extended.png" />
+
+
+## Disclaimer
+
+All code is provided as-is without any warranty.
