@@ -9,3 +9,10 @@
 ## Disclaimer
 
 All code is provided as-is without any warranty.
+
+
+## Extended Version
+
+Added more tabs and apps to install, renamed and reorganized some things.
+
+<img src="https://github.com/yonacwy/ubuntu-ce-software-center/blob/extended/ubuntu-ce-software-center-extended.png" />
